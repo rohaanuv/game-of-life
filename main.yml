@@ -6,7 +6,7 @@
   connection: ssh
   vars:
     pkgname: docker
-    index_path: /mnt/
+    index_path: /mnt/game-of-life/
 
   tasks:
     - name: install docker
