@@ -12,7 +12,7 @@
     - name: install docker
       action: yum pkg="{{pkgname}}" state=present
       notify: start service
-
+    
     - name: deploy index file
       docker-compose:
         project_src: "{{destiny}}"
